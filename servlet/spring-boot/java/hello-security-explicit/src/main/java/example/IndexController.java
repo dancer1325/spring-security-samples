@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class IndexController {
 
+	// TODO: Why once you go to '/' -> you are redirected to '/login' ?
 	@GetMapping("/")
 	public String index() {
 		return "index";
