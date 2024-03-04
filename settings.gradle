@@ -16,7 +16,7 @@ pluginManagement {
 
 plugins {
     id "com.gradle.enterprise" version "3.10.2"
-    id "io.spring.ge.conventions" version "0.0.7"
+    id "io.spring.ge.conventions" version "0.0.15"
 }
 
 include ":reactive:rsocket:hello-security"
@@ -31,6 +31,7 @@ include ":reactive:webflux:java:method"
 include ":reactive:webflux:java:oauth2:login"
 include ":reactive:webflux:java:oauth2:resource-server"
 include ":reactive:webflux:java:oauth2:webclient"
+include ":reactive:webflux:java:session-management:maximum-sessions"
 include ":reactive:webflux:kotlin:hello-security"
 include ":servlet:java-configuration:aspectj"
 include ":servlet:java-configuration:authentication:preauth"
@@ -48,6 +49,7 @@ include ":servlet:java-configuration:max-sessions"
 include ":servlet:java-configuration:saml2:login"
 include ":servlet:spring-boot:java:authentication:username-password:user-details-service:custom-user"
 include ":servlet:spring-boot:java:authentication:username-password:mfa"
+include ":servlet:spring-boot:java:data"
 include ":servlet:spring-boot:java:hello"
 include ":servlet:spring-boot:java:hello-security"
 include ":servlet:spring-boot:java:hello-security-explicit"
