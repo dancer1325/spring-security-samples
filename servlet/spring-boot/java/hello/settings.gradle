@@ -1,1 +1,12 @@
+// TODO: Fix it to define properly
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.namespace == 'libs.plugins') {
+                useModule("libs.plugins:org.springframework.boot:3.2.3")
+                useModule("libs.plugins:io.spring.dependency.management:1.1.0")
+            }
+        }
+    }
+}
 
