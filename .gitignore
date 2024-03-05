@@ -211,3 +211,8 @@ gradle-app.setting
 
 # End of https://www.toptal.com/developers/gitignore/api/gradle,java,intellij,eclipse
 
+# Others
+.idea/aws.xml
+.idea/checkstyle-idea.xml
+.idea/jpa-buddy.xml
+.idea/misc.xml
