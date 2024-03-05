@@ -28,6 +28,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 @EnableWebSecurity
 public class SecurityConfiguration {
 
+	// password						encoded with User.withDefaultPasswordEncoder()
 	// @formatter:off
 	@Bean
 	public UserDetailsService userDetailsService() {
