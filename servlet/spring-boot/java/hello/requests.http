@@ -1,3 +1,7 @@
 #### No password    -- Redirect to index.html
 GET {{host}}/
 Content-Type: application/json
+
+#### NON existing endpoint    -- Redirect to error
+GET {{host}}/aa
+Content-Type: application/json
