@@ -1,0 +1,30 @@
+# Compiled class files
+*.class
+
+# Dependencies
+/target/
+/lib/
+
+# Compiled source files
+/target/classes/
+
+# IDE specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+/.settings/
+
+# Build files
+/build/
+
+# Maven specific files
+log/
+target/
+release-notes.txt
+
+# Gradle specific files
+.gradle/
+build/
