@@ -30,6 +30,7 @@ import org.springframework.security.provisioning.UserDetailsManager;
 @EnableWebSecurity
 public class SecurityConfiguration {
 
+	// password			encoded with Spring Boot CLI
 	@Bean
 	UserDetailsManager users(DataSource dataSource) {
 		UserDetails user = User.builder()
