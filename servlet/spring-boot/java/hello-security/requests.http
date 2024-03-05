@@ -1,0 +1,15 @@
+#### NO authorization
+GET {{host}}/
+Content-Type: application/json
+
+#### Basic Auth    --   Existing path
+# Password -- Once you start up the application -> copy it
+GET {{host}}/
+Content-Type: application/json
+Authorization: Basic user 690567c1-994d-4446-923c-c5fecac190a8
+
+#### Basic Auth    --   NON Existing path
+# Password -- Once you start up the application -> copy it
+GET {{host}}/non-existing
+Content-Type: application/json
+Authorization: Basic user 690567c1-994d-4446-923c-c5fecac190a8
