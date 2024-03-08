@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<included>
+    <springProperty scope="context" name="LOG_ROOT_LEVEL" source="logging.level.root" defaultValue="INFO"/>
+    <property name="DEFAULT_STDOUT" value="${CONSOLE_LOG_PATTERN}"/>
+</included>

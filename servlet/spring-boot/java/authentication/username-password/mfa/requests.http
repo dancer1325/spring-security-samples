@@ -1,0 +1,20 @@
+### Request Second Factor
+GET {{host}}/second-factor
+
+---
+
+### Process Second Factor
+POST {{host}}/second-factor?code=2
+
+-H 'Content-Type: application/json'
+
+---
+### Request Third Factor
+GET {{host}}/third-factor
+
+
+---
+### Process Third Factor
+POST {{host}}/third-factor?answer=true
+
+-H 'Content-Type: application/json'
